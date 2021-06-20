@@ -1,0 +1,270 @@
+.announcement-bar {
+    background-color: goldenrod;
+    text-align: center;
+    color: white;
+}
+
+.fairwinds-banner {
+    background-color: black;
+    text-align: center;
+}
+
+.hero-bg {
+    background-image: url(img/kinga-cichewicz-kqDEH7M2tGk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.hero-header {
+    text-align: center;
+    padding: 120px;
+}
+
+.hero-header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-custom {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 0;
+}
+
+.bergamont {
+    height: 400px;
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+    border: 10px solid #BAC3DB!important;
+}
+
+.card-body {
+    padding: 50px;
+}
+
+.card-ingredients {
+    line-height: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+.deep-sleep-review {
+    text-align: center;
+}
+
+.icon {
+    height: 150px;
+}
+
+.review {
+    width: 50%;
+    margin: auto;
+}
+
+.deep-sleep-section {
+    margin-top: 100px;
+   
+}
+
+.deep-sleep-img {
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+.lavender {
+    height: 400px;
+    margin-top: -160px;
+    position: relative;
+}
+
+.deep-sleep-product {
+    height: 500px;
+    margin-top: -275px;
+    margin-left: -115px;
+    position: relative;
+}
+
+.deep-sleep-ingredients {
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+.promise-text {
+    width: 50%;
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.ingredients-box {
+    width: 50%;
+    margin: auto !important;
+    height: 420px;
+    background-color: #E8E8E8;
+}
+
+.ingredients-box-info {
+padding: 50px;
+}
+
+
+
+.ingredients-box-info h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+.about-us {
+    text-align: center;
+    margin-top: 100px;;
+}
+
+.about-us-text  h1{
+    color: #99825E;
+    text-align: center;
+}
+
+.about-us-text h1  {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+.about-us-text h5  {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+.header-sub {
+    font-weight: 900;
+}
+
+.about-us .col h5 {
+    color: #99825E;
+}
+
+.plant {
+    height: 100px;
+}
+
+.grocery {
+    height: 100px;
+}
+
+.lab {
+    height: 100px;
+}
+
+.email-section {
+    background-image: url(img/CBD_Home_EmailAsset-191-1024x224.jpg);
+    background-size: cover;
+
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.email-text {
+    color: white;
+    padding: 100px;
+}
+
+
+.disclaimer {
+    border: 1px solid #99825E;
+    margin-bottom: 10px;
+}
+
+.disclaimer-text {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-header {
+        padding: 50px;
+        height: 450px;
+    }
+
+    .hero-header h1 {
+        font-size: 2em;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .review {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%
+    }
+
+    .deep-sleep-product {
+        display: none;
+    }
+
+    .deep-sleep-img {
+        width: 300px
+    }
+
+    .lavender {
+        display: none;
+    }
+
+    .deep-sleep-section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .ingredients-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .promise-text {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 30px;
+
+    }
+
+    .col {
+        flex: none;
+    }
+
+    .btn-custom {
+        margin-top: 200px;
+    }
+
+    .hero-bg {
+        height: auto;
+    }
+
+    .header-sub {
+        font-size: 12px;
+    }
+}
